@@ -3,6 +3,7 @@ body{
 }
 #sec_one{
     display: flex;
+    padding-bottom: 120px;
 }
 #headline{
     font-size: 50px;
