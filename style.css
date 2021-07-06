@@ -1,3 +1,35 @@
 body{
     font-family: 'Crimson Text', serif;
 }
+#sec_one{
+    display: flex;
+}
+#headline{
+    font-size: 50px;
+}
+.colored-font{
+    color: steelblue;
+}
+.wide{
+    width: 50%;
+
+}
+.wide img{
+    width: 100%;
+    padding-bottom: 120px;
+}
+#pad-l{
+    padding-top: 120px;
+    padding-left: 140px;
+}
+#pad-r{
+    padding-top: 80px;
+    padding-right: 140px;
+}
+.link_button{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 12px 30px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 27px;
+}
