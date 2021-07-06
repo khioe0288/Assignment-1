@@ -20,11 +20,11 @@ body{
 
 }
 #pad-l{
-    padding-top: 120px;
+    padding-top: 100px;
     padding-left: 140px;
 }
 #pad-r{
-    padding-top: 80px;
+    padding-top: 60px;
     padding-right: 140px;
 }
 .link_button{
@@ -61,15 +61,21 @@ body{
 }
 #sec_end{
     display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
 }
 .pic_wid{
-    width: 33%;
-    border: 8px;
-    border-radius: 10px;
-    border-color: rgb(34, 241, 7);
-    margin: 20px;
-    padding: 10px;
+    width: 30%;
 }
 .pic_wid img {
-    width: 70%;
+    width: 100%;
+}
+.box-shadow{
+    width: 300px;
+    height: 370px;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.486);
 }
