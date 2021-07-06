@@ -1,7 +1,7 @@
 body{
     font-family: 'Crimson Text', serif;
 }
-.sec_one{
+#sec_one{
     display: flex;
 }
 #headline{
@@ -35,4 +35,22 @@ body{
 }
 #sec-tow{
     background-image: url(Pics/bg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 120px;
+}
+.wider{
+    width: 50%;
+    padding: 6%;
+}
+.wider img{
+    width: 60%
+}
+#padd-l{
+    padding-top: 120px;
+    padding-left: 140px;
+}
+#padd-r{
+    padding-top: 180px;
+    padding-right: 140px;
 }
