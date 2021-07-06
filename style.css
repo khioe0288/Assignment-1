@@ -59,3 +59,17 @@ body{
     color: gray;
     text-align: center;
 }
+#sec_end{
+    display: flex;
+}
+.pic_wid{
+    width: 33%;
+    border: 8px;
+    border-radius: 10px;
+    border-color: rgb(34, 241, 7);
+    margin: 20px;
+    padding: 10px;
+}
+.pic_wid img {
+    width: 70%;
+}
