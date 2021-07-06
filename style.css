@@ -1,5 +1,6 @@
 body{
     font-family: 'Crimson Text', serif;
+    margin: 0;
 }
 #sec_one{
     display: flex;
@@ -56,7 +57,7 @@ body{
     padding-right: 140px;
 }
 .font-col{
-    color: gray;
+    color: rgb(112, 112, 112);
     text-align: center;
 }
 #sec_end{
@@ -77,5 +78,36 @@ body{
     padding: 2%;
     margin: 2%;
     border-radius: 20px;
-    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.486);
+    box-shadow: 3px 3px 20px rgba(128, 128, 128, 0.822);
+}
+#new-box{
+    display: flex;
+    width: 70%;
+    height: 150px;
+    padding: 1%;
+    border-bottom: 180px;
+    margin-left: 14%;
+    margin-right: 15%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px rgba(128, 128, 128, 0.822);
+}
+.box-cont{
+    text-align: left;
+    margin-left: 120px;
+    margin-right: 80px;
+}
+.box-cont h1{
+    font-size: 40px;
+}
+.box-conto{
+    font-size: 14px;
+    color: gray;
+}
+#foot{
+    border: 1px solid rgb(47, 55, 79);
+    background-color: rgb(47, 55, 79);
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 9px;
+    padding-bottom: 22px;
 }
